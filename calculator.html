@@ -8,63 +8,7 @@
     <meta name="description" content="Calculator from scratch">
     <meta name="keywords" content="html5, css">
 
-    <style>
-        .calculator {
-            background-color: #cccccc;
-            height: 420px;
-            width: 300px;
-            border-radius: 15px;
-        }
-
-        .display {
-            background-image: linear-gradient(gray, white);
-            border-top: solid white;
-            border-left: solid white;
-            height: 60px;
-            width: 88%;
-            text-align: right;
-            margin: 20px;
-            display: inline-block;
-        }
-
-        .display span {
-            font-size: 50px;
-            padding-right: 10px;
-        }
-
-        .keyboard {
-            display: grid;
-            grid-gap: 10px;
-            grid-template-columns: 50px 50px 50px 50px;
-            position: relative;
-            left: 40px;
-            width: 90%;
-        }
-
-        .keyboard button {
-            height: 50px;
-            width: 50px;
-        }
-
-        #zero {
-            background-color: #cccccc;
-            border-top: solid white;
-            border-left: solid white;
-            grid-column-start: 1;
-            grid-column-end: 3;
-            width: 110px;
-        }
-
-        #more {
-            background-color: #cccccc;
-            border-top: solid white;
-            border-left: solid white;
-            height: 110px;
-            grid-column-start: 4;
-            grid-row-start: 4;
-            grid-row-end: 6;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -77,7 +21,7 @@
             <button>7</button> <button>8</button> <button>9</button> <button>=</button>
             <button>4</button> <button>5</button> <button>6</button> <button>-</button>
             <button>1</button> <button>2</button> <button>3</button> <button id="more">+</button>
-            <button id="zero">0</button> <button>,</button> 
+            <button id="zero">0</button> <button>,</button>
         </div>
     </div>
 </body>
